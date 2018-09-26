@@ -4,7 +4,6 @@
 </div>
 
 ## Install
-0. install dependencies with
 ```bash
 $ pip3 install bs4 pyhal
 ```
