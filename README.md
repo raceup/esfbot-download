@@ -1,10 +1,15 @@
-# esf-bot: esf data crawler from Formula Student Germany website.
+<div align="center">
+<h1>ESF Bot | download</h1>
+<em>Bot to crawl esf data from Formula Student Germany website</em></br></br>
+</div>
 
-## Aim
-* download entire esf module from Formula Student Germany website.
+## Install
+0. install dependencies with
+```bash
+$ pip3 install bs4 pyhal
+```
 
-## Solution
-* simple, ready to use script
-
-## LICENSE
-[Apache License](http://www.apache.org/licenses/LICENSE-2.0) Version 2.0, January 2004
+## Usage
+```bash
+$ python3 bot/bot.py -u <your fsg username> -p <your fsg password> -d <path to data folder>
+```
